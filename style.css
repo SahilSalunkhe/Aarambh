@@ -915,3 +915,36 @@ section {
     }
 
 }
+
+.scroll-text{
+    margin-top:18px;
+    text-align:center;
+
+    color:#ffffff;
+
+    font-size:14px;
+
+    font-weight:500;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    opacity:.8;
+
+    animation:scrollText 2s ease-in-out infinite;
+}
+
+@keyframes scrollText{
+
+    0%,100%{
+        opacity:.5;
+        transform:translateY(0);
+    }
+
+    50%{
+        opacity:1;
+        transform:translateY(4px);
+    }
+
+}
