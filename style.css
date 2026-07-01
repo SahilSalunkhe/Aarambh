@@ -890,3 +890,28 @@ section {
     }
 
 }
+
+@media (max-width:768px){
+
+    .hero{
+        min-height:100vh;
+        padding:90px 20px 40px;
+    }
+
+    .hero-content{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+
+    .community-box{
+        margin-top:18px;
+        margin-bottom:60px; /* Scroll arrow sathi space */
+    }
+
+    .scroll-indicator{
+        bottom:20px;
+    }
+
+}
